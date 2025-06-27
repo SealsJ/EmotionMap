@@ -22,6 +22,9 @@ keras>=2.2.0
 tqdm>=4.30.0
 numpy>=1.14.0
 tf-keras==2.19.0
+scikit-learn>=1.7.0
 
 #Audio & Video Processing
 opencv-python>=4.5.5.64
+moviepy>=2.2.1
+librosa>=0.11.0
