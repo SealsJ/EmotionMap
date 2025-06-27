@@ -62,9 +62,9 @@ def run_frame_emotion_aggregation(faces: List[np.ndarray]) -> Tuple[str, Dict[st
         for label in EMOTION_LABELS:
             summed[label] += score.get(label, 0.0)
 
-    # Divide each emotion's total sum by th enumber of frames processed to get average emotion scores across the interval
+    # Divide each emotion's total sum by the number of frames processed to get average emotion scores across the interval
     averaged = {label: summed[label] / len(emotion_scores) for label in EMOTION_LABELS}
-    print(f"[DEBUG] AVERAGED EMOTIONS FOR SEGMENT: {averaged}")
+    #print(f"[DEBUG] AVERAGED EMOTIONS FOR SEGMENT: {averaged}")
 
     # Choose the emotion with highest average score
     dominant = max(averaged, key=averaged.get)

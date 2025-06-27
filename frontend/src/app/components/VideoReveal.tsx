@@ -26,6 +26,8 @@ export default function VideoReveal () {
 
   const { showToast } = useToast()
 
+  const RAILWAY_API_URL = process.env.NEXT_PUBLIC_RAILWAY_API_URL || "http://localhost:8000";
+
   // Remove or Add Emotions from the video, influences EmotionSelector to update EmotionVideoOverlay & rerender video
   const handleSelectedEmotion = (emotion: string) => {
     setSelectedEmotions((prev) => 
@@ -41,7 +43,7 @@ export default function VideoReveal () {
 
       // Send to FastAPI backend
       const response = await axios.post(
-        'http://localhost:8000/process_video',
+        `${RAILWAY_API_URL}/process_video`,
         formData,
         {
           headers: { 'Content-Type': 'multipart/form-data' },
@@ -95,7 +97,6 @@ export default function VideoReveal () {
     emotionIntervals: EmotionInterval[],
     selectedEmotions: string[]
   ) => {
-    const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://localhost:8000";
 
     try {
       setDownloading(true)
@@ -105,7 +106,7 @@ export default function VideoReveal () {
       formData.append("selected_emotions", JSON.stringify(selectedEmotions));
 
       const response = await axios.post(
-        `${API_BASE_URL}/export_emotion_video`,
+        `${RAILWAY_API_URL}/export_emotion_video`,
         formData,
         {
           responseType: "blob", // important for binary download
@@ -117,7 +118,7 @@ export default function VideoReveal () {
       const url = window.URL.createObjectURL(new Blob([response.data]));
       const link = document.createElement("a");
       link.href = url;
-      link.setAttribute("download", "emotion_highlights.mp4");
+      link.setAttribute("download", "EmotionMap_Highlights.mp4");
       document.body.appendChild(link);
       link.click();
       link.remove();

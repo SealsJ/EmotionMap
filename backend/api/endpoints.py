@@ -139,5 +139,5 @@ def export_emotion_video(
     return StreamingResponse(
         iterfile(),
         media_type="video/mp4",
-        headers={"Content-Disposition": "attachment; filename=emotion_highlights.mp4"},
+        headers={"Content-Disposition": "attachment; filename=EmotionMap_Highlights.mp4"},
     )
