@@ -21,6 +21,7 @@ fire>=0.4.0
 keras>=2.2.0
 tqdm>=4.30.0
 numpy>=1.14.0
+tf-keras==2.19.0
 
 #Audio & Video Processing
 opencv-python>=4.5.5.64
