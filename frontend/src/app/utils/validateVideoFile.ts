@@ -12,7 +12,7 @@ export function validateVideoFile(file: File |  undefined | null ): { valid:bool
   }
 
   //Additional check for file size to limit processing time on the model
-  const MAX_MB = 250
+  const MAX_MB = 500
   if (file.size  > MAX_MB * 1024 * 1024) {
     return { valid: false, error: `File size is too large. Max size is ${MAX_MB}MB.`}
   }
