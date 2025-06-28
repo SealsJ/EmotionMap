@@ -35,7 +35,7 @@ EmotionMap is an advanced AI tool that revolutionizes how the audience engages w
 - <b>Emotion Filter Selector:</b> Filter video by specific emotion (Happy, Anger, Fear...). This dynamically adjusts the video so on rewatch you only experience the emotions you selected. This is connected to the Emotion Timeline Overlay which hides unselected Emotions.  
 - <b>Video Metadata & Analytics:</b> EmotionMap delivers an emotional breakdown of uploaded videos which includes frequency charts, a highlight of top emotions, and data regarding emotional volatility.  
 - <b>Emotion Based Video Download & Sharing:</b> Based on the Emotions selected, you can download the video to get "EmotionMap_Highlights" of only the emotions you are interested in.
-- <b>Ai Powered Emotion Detection:</b> EmotionMap uses multimodel Machine Learning models, combining facial expression recognition and voice tone analysis to detect emotions "Anger", "Disgust", "Fear", "Happy", "Sadness", "Surprise", and "Neutral".
+- <b>AI Powered Emotion Detection:</b> EmotionMap uses multimodel Machine Learning models, combining facial expression recognition and voice tone analysis to detect emotions "Anger", "Disgust", "Fear", "Happy", "Sadness", "Surprise", and "Neutral".
 
 ## <a id="tutorial"></a> 🧑‍💻 Tutorial
 1. Upload any video clip less than 500MBs.
@@ -59,7 +59,7 @@ EmotionMap is an advanced AI tool that revolutionizes how the audience engages w
 - **Processing**: Combines a Weighted Average of Confidence Scores from Facial and Audio Model to determine final Emotion Confidence for each segment. This result is passed through JSON response which is delivered to frontend.
 
 ### EmotionMap Machine Learning and Computer Vision Design Diagram
-<img width=100% src="https://imgur.com/ihTm61v" alt="Machine Learning and Computer Vision Design Diagram">
+<img width=100% src="https://i.imgur.com/ihTm61v.png" alt="Machine Learning and Computer Vision Design Diagram">
 
 ## <a id="future"></a> 🧪 Future Work & Development
 - Add account creation to allow users to potentially store and share their EmotionMapped Videos on the platform.
