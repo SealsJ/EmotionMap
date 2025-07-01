@@ -24,6 +24,9 @@
 ## Overview
 EmotionMap is an advanced AI tool that revolutionizes how the audience engages with emotional video content using Computer Vision & Machine Learning. By revealing the emotional structure of any video or film, YOU now have the control to interact with any story based on your emotional desires. 
 
+### EmotionMap Landing Page
+<img width=100% src="https://i.imgur.com/iWUtPFI.png" alt="EmotionMap Landing Page">
+
 ## <a id="audience"></a>🎬 Who is the Audience of EmotionMap?
 • <b>Casual Viewers & Niche Audiences:</b> From finding the moments that hit the hardest to skipping all the goosebumps and chills, EmotionMap gives viewers the agency to take control of their experience. <br>
 • <b>Streaming Platforms & Product Teams:</b> EmotionMap bridges the gap between Streaming Services and valuable emotional data. Enhancing recommendation engines, promoting viewer engagement, and boosting user retention. <br>
@@ -36,6 +39,9 @@ EmotionMap is an advanced AI tool that revolutionizes how the audience engages w
 - <b>Video Metadata & Analytics:</b> EmotionMap delivers an emotional breakdown of uploaded videos which includes frequency charts, a highlight of top emotions, and data regarding emotional volatility.  
 - <b>Emotion Based Video Download & Sharing:</b> Based on the Emotions selected, you can download the video to get "EmotionMap_Highlights" of only the emotions you are interested in.
 - <b>AI Powered Emotion Detection:</b> EmotionMap uses multimodel Machine Learning models, combining facial expression recognition and voice tone analysis to detect emotions "Anger", "Disgust", "Fear", "Happy", "Sadness", "Surprise", and "Neutral".
+
+### EmotionMap Reveal Page
+<img width=100% src="https://imgur.com/2KhEbkH.png" alt="EmotionMap Star Wars Emotion Reveal">
 
 ## <a id="tutorial"></a> 🧑‍💻 Tutorial
 1. Upload any video clip less than 500MBs.
