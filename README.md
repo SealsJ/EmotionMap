@@ -1,4 +1,5 @@
 <h2 align="center"> 🎭 EmotionMap </h2>
+<h1 align="center"> **NOTICE: Live Users Have Reached Railway Limit, Temporary Pause on Emotion Mapping!** </h1>
 <hr>
 
 <p align="center">
